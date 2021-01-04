@@ -1,0 +1,31 @@
+.bor1{
+
+	border-top: 1px solid #858275;
+	margin-top: 130px;
+	width: 400px;
+	margin-left: 380px;
+}
+div.input-group{
+	margin-top: 10px;
+}
+.main{
+	width: 300px;
+	height: 100px;
+	margin-left: 430px;
+}
+.bor2{
+	border-top: 1px solid #858275;
+	margin-top: 110px;
+	width: 400px;
+	margin-left: 380px;
+}
+	
+.btn{
+	width: 360px;
+	margin-left: 400px;
+	height: 40px;
+	font-size: 20px;
+}
+
+
+

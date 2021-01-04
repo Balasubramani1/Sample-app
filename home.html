@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matrix Homepage</title>
+	<meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/yourcode.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<script src="https://kit.fontawesome.com/yourcode.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bower_components/octicons/octicons/octicons.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" type="text/css" href="Stylesheet/stylesheet.css">
+</head>
+<body>
+	<div class="container-fluid" style="background-color: #eeeeee; width: auto;padding: 0px;border: 0px; margin: 0px;">
+
+		<div class="side">
+			<div class="sidenav">
+				<img style="margin-left: 10px;" src="Images/Sign_up.png"><br><br>
+  	 			<a href="#" class="active"><span class="glyphicon glyphicon-th"></span>  Dashboard</a>
+  				<a href="#"> <i class="fas fa-chart-bar"></i> Charts</a>
+  				<a href="#"><i class="fas fa-cloud-meatball"></i> Widgets</a>
+  				<a href="#"><i class="fas fa-border-all"></i> Tables</a>
+  				<a href="#"><i class="far fa-calendar-alt"></i> Full Width</a>
+  				<div class="dropdown">
+  					<a class="dropdown-toggle" data-toggle="dropdown" href="#"> <i class="fab fa-wpforms"></i> Forms <i style="float:right;" class="fas fa-chevron-right"></i></a>
+    				<ul class="dropdown-menu" style="background-color: #A9A9A9">
+      					<li><a href="#">Feedback</a></li>
+      					<li><a href="#">User form</a></li>
+    				</ul>
+  				</div>
+  				<a href="#"><i class="fas fa-border-all"></i> Buttons</a>
+  				<div class="dropdown">
+  					<a class="dropdown-toggle" data-toggle="dropdown" href="#"> <i class="far fa-grin"></i> Icons <i style="float:right;" class="fas fa-chevron-right"></i></a>
+    				<ul class="dropdown-menu" style="background-color: #A9A9A9">
+      					<li><a href="#">Matrix</a></li>
+      					<li><a href="#">Smily</a></li>
+      					<li><a href="#">Angry</a></li>
+    				</ul>
+  				</div>
+  				<a href="#"><span class="glyphicon glyphicon-pencil"></span>  Elements</a>
+  				<div class="dropdown">
+  					<a class="dropdown-toggle" data-toggle="dropdown" href="#"> <i class="fas fa-user-plus"></i> Addons <i style="float:right;" class="fas fa-chevron-right"></i></a>
+    				<ul class="dropdown-menu" style="background-color: #A9A9A9">
+      					<li><a href="#">Stats</a></li>
+      					<li><a href="#">Photos</a></li>
+      					<li><a href="#">Graph</a></li>
+    				</ul>
+  				</div>
+  				<div class="dropdown">
+  		  			<a class="dropdown-toggle" data-toggle="dropdown" href="#"> <i class="fas fa-user-shield"></i> Authentication <i style="float:right;" class="fas fa-chevron-right"></i></a>
+    				<ul class="dropdown-menu" style="background-color: #A9A9A9">
+      					<li><a href="signup.html">Sign Up</a></li>
+      					<li><a href="#">Login</a></li>
+    				</ul>
+  				</div>
+  				<div class="dropdown">
+  					<a class="dropdown-toggle" data-toggle="dropdown" href="#"> <i class="fas fa-exclamation-triangle"></i>  Errors <i style="float:right;" class="fas fa-chevron-right"></i></a>
+    				<ul class="dropdown-menu" style="background-color: #A9A9A9">
+      					<li><a href="#">User error</a></li>
+      					<li><a href="#">Admin error</a></li>
+    				</ul>
+  				</div>
+  			</div><!-- sidenav -->
+  		</div><!-- side -->
+
+  		<div class="main">
+
+  			<div class="top">
+				<p id="bar"><i class="fas fa-bars"></i></p>
+				<p class="create">Create New <i class="fas fa-chevron-down"> </i></p>
+				<p class="search"><span class="glyphicon glyphicon-search"></span></p>
+				<p class="user"><i class="far fa-user-circle"></i></p>
+      			<p class="message"><i class="far fa-comment-dots"></i></p>
+      			<p class="noti"><span class="glyphicon glyphicon-bell"></span></p>
+			</div><br>
+
+			<div class="container-fluid">
+
+				<div class="first">
+      				<h4 style="color: #3e5569; font-weight: 700; ">Dashboard</h4>
+      				<a href="#" class="home">Home</a>
+      				<p><i id="arrow" class="fas fa-chevron-right"></i></p>
+      				<p class="lib">Library</p>
+    			</div><br>
+    			
+    			
+
+    			<div class="container-fluid">
+    				<div class="row">
+
+    					<div class="col-lg-2 col-sm-2 col-md-6">
+                        	<div style=" background-color: #37a9e3" class="con">
+                        		<span class="glyphicon glyphicon-th"></span><br>
+                        		<p style="font-size: 15px;font-weight: 700;">Dashboard</p>
+                        	</div>
+                    	</div>
+
+    					
+
+    					<div class="col-md-6 col-lg-4 col-sm-2">
+                        	<div style=" background-color: #50b879" class="con">
+                        		<i class="fas fa-chart-bar"></i> <br>
+                        		<p style="font-size: 15px;font-weight: 700;">Charts</p>
+                        	</div>
+                    	</div>
+
+                    	<div class="col-lg-2 col-sm-2 col-md-6">
+                        	<div style=" background-color: #f9b747" class="con">
+                        		<i class="fas fa-cloud-meatball"></i><br>
+                        		<p style="font-size: 15px;font-weight: 700;">Widgets</p>
+                        	</div>
+                    	</div>
+
+                    	<div class="col-lg-2 col-sm-2 col-md-6">
+                        	<div style=" background-color: #da542e" class="con">
+                        		<i class="fas fa-border-all"></i> <br>
+                        		<p style="font-size: 15px;font-weight: 700;">Tables</p>
+                        	</div>
+                    	</div>
+
+                    	<div class="col-lg-2 col-sm-2 col-md-6">
+                        	<div style="background-color: #2155a4" class="con">
+                        		<i class="fas fa-arrows-alt"></i><br>
+                        		<p style="font-size: 15px;font-weight: 700;">Full Width</p>
+                        	</div>
+                    	</div>
+                    </div><br><!-- row in main -->
+                    <div class="row">
+
+                    	<div class="col-md-6 col-lg-4 col-sm-2">
+                        	<div style="background-color: #da542e" class="con">
+                        		<i class="fab fa-wpforms"></i></span><br>
+                        		<p style="font-size: 15px;font-weight: 700;">Forms</p>
+                        	</div>
+                    	</div>
+
+                    	<div class="col-lg-2 col-sm-2 col-md-6">
+                        	<div style="background-color: #2155a4" class="con">
+                        		<i class="fas fa-th-large"></i> <br>
+                        		<p style="font-size: 15px;font-weight: 700;">Buttons</p>
+                        	</div>
+                    	</div>
+
+                    	<div class="col-lg-2 col-sm-2 col-md-6">
+                        	<div style="background-color: #37a9e3" class="con">
+                        		<i class="glyphicon glyphicon-pencil"></i><br>
+                        		<p style="font-size: 15px;font-weight: 700;">Element</p>
+                        	</div>
+                    	</div>
+
+                    	<div class="col-lg-2 col-sm-2 col-md-6">
+                        	<div style="background-color: #50b879" class="con">
+                        		<i class="far fa-calendar-check"></i> <br>
+                        		<p style="font-size: 15px;font-weight: 700;">Calendar</p>
+                        	</div>
+                    	</div>
+
+                    	<div class="col-lg-2 col-sm-2 col-md-6">
+                        	<div style="background-color: #f9b747" class="con">
+                        		<i class="fas fa-exclamation-triangle"></i><br>
+                        		<p style="font-size: 15px;font-weight: 700;">Error</p>
+                        	</div>
+                    	</div>
+    				</div><!-- row in main -->
+    			</div><!-- container-fluid in main --><br>
+
+
+    			<div class="site">
+    				<h4 style="color: #3e5569; font-weight: 400; font-size: 2rem; ">Site Analysis</h4>
+    				<h4 style="font-weight: 300;color: #a1aab2;">Overview of Latest Month</h4>
+    				<div class="container-fluid">
+    					<div class="row">
+    						<div class="col-lg-8 col-sm-12 col-md-12">
+    							<img src="Images/Analysis .png" class="image" width="100%">
+    							
+    						</div>
+    						<div class="col-lg-4 col-sm-12 col-md-12">
+    							<div class="container-fluid">
+    								<div class="row">
+    									<div class="col-lg-6 col-md-6 col-sm-6">
+    										<div class="inner">
+    											<div>
+    												<span class="glyphicon glyphicon-user"></span><br>
+    												2540<br>
+													<p style="font-size: small;">Total Users</p>
+    												
+    											</div>
+    										</div>
+
+    										<div class="inner">
+    											<div>
+    												<span class="glyphicon glyphicon-shopping-cart"></span><br>
+    												656<br>
+													<p style="font-size: small;">Total Shop</p>
+    												
+    											</div>
+    											
+    										</div>
+
+    										<div class="inner">
+    											<div>
+    												<i class="fas fa-border-all"></i><br>
+    												100<br>
+													<p style="font-size: small;">Pending Orders</p>
+    												
+    											</div>
+    											
+    										</div>
+    										
+    									</div>
+    									<div class="col-lg-6 col-md-6 col-sm-6">
+    										<div class="inner">
+    											<div>
+    												<span class="glyphicon glyphicon-plus"></span><br>
+    												120<br>
+													<p style="font-size: small;">New Users</p>
+    												
+    											</div>
+    											
+    										</div>
+
+    										<div class="inner">
+    											<div>
+    												 <span class="glyphicon glyphicon-tag"></span><br>
+    												9540<br>
+													<p style="font-size: small;">Total Orders</p>
+    												
+    											</div>
+    											
+    										</div>
+
+    										<div class="inner">
+    											<div>
+    												<span class="glyphicon glyphicon-globe"></span><br>
+    												8540<br>
+													<p style="font-size: small;">Online Orders</p>
+    												
+    											</div>
+    											
+    										</div>
+    										
+    									</div>
+    									
+    								</div>
+    								
+    							</div>
+    							
+    						</div>
+    						
+    					</div>
+    					
+    				</div>
+   
+    				
+    			</div>
+
+				
+			</div><!-- container-fluid in main -->
+
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-6 col-md-12 col-sm-12">
+
+				<div class="container-fluid latest">
+					<h4 style="color: #3e5569; font-weight: 400; font-size: 2rem; padding: 10px; ">Latest Posts</h4><br>
+					<div>
+						<div style="width: 20%; float: left;"><img src="Images/user1.jpg" class="img-circle" alt="user1" width="50" height="50"> </div>
+						<div style="width: 80%; float: right; color: #3e5569;">James Anderson<br>
+							<p style="padding-top: 7px;">Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+							<button type="button" class="btn btn-primary btn-sm" style="border-radius: 0px; background-color: #36aae8; border: none;">Edit</button>
+							<button type="button" class="btn btn-success btn-sm" style="border-radius: 0px;border: none; background-color: #50b879">Publish</button>
+							<button type="button" class="btn btn-danger btn-sm" style="border-radius: 0px; background-color: #da542e;border: none;">Delete</button>
+							<p style="float: right; opacity: 0.5;">April 14, 2016</p>
+
+						</div>
+					</div>
+					<div>
+						<div style="width: 20%; float: left; padding-top: 90px;"><img src="Images/user2.jpg" class="img-circle" alt="user1" width="50" height="50"> </div>
+						<div style="width: 80%; float: right; color: #3e5569; padding-top: 30px;">James Anderson<br>
+							<p style="padding-top: 7px;">Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+							<button type="button" class="btn btn-primary btn-sm" style="border-radius: 0px; background-color: #36aae8; border: none;">Edit</button>
+							<button type="button" class="btn btn-success btn-sm" style="border-radius: 0px;border: none; background-color: #50b879">Publish</button>
+							<button type="button" class="btn btn-danger btn-sm" style="border-radius: 0px; background-color: #da542e;border: none;">Delete</button>
+							<p style="float: right; opacity: 0.5;">May 10, 2016</p>
+
+						</div>
+					</div>
+					<div>
+						<div style="width: 20%; float: left; padding-top: 85px;"><img src="Images/user3.jpg" class="img-circle" alt="user1" width="50" height="50"> </div>
+						<div style="width: 80%; float: right; color: #3e5569;padding-top: 30px;">James Anderson<br>
+							<p style="padding-top: 7px;">Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+							<button type="button" class="btn btn-primary btn-sm" style="border-radius: 0px; background-color: #36aae8; border: none;">Edit</button>
+							<button type="button" class="btn btn-success btn-sm" style="border-radius: 0px;border: none; background-color: #50b879">Publish</button>
+							<button type="button" class="btn btn-danger btn-sm" style="border-radius: 0px; background-color: #da542e;border: none;">Delete</button>
+							<p style="float: right; opacity: 0.5;">August 1, 2016</p>
+
+						</div>
+					</div>
+				</div>
+
+				<div class=" container-fluid todo">
+					<h4 style="color: #3e5569; font-weight: 400; font-size: 2rem; padding: 10px; ">To Do List</h4>
+					<div style="padding: 10px 10px 100px 10px;">
+						<div style="float: left;width: 5%;"><input type="checkbox"></div>
+						<div style="float: left;width: 95%">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+							<p class="today" style=" background-color: #da542e">Today</p>
+							<img src="Images/user1.jpg" class="img-circle" alt="user1" width="40" height="40">
+							<img src="Images/user4.jpg" class="img-circle" alt="user1" width="40" height="40">
+							<img src="Images/user5.jpg" class="img-circle" alt="user1" width="40" height="40">
+							<img src="Images/user2.jpg" class="img-circle" alt="user1" width="40" height="40">
+							
+						</div>
+					</div>
+
+					<div style="padding: 10px 10px 60px 10px;">
+						<div style="float: left;width: 5%;"><input type="checkbox"></div>
+						<div style="float: left;width: 95%">Lorem Ipsum is simply dummy text of the printing
+							<p class="today" style=" background-color: #7460ee;">1 week</p>
+							<p style="opacity: 0.6; font-size: 10px; padding-top: 10px;">26 jun 2017</p>
+							
+						</div>
+					</div>
+
+					<div style="padding: 10px 10px 80px 10px;">
+						<div style="float: left;width: 5%;"><input type="checkbox"></div>
+						<div style="float: left;width: 95%">Give Purchase report to 
+							<p class="today" style="background-color: #2255a4;">Yesterday</p><br>
+							<img src="Images/user5.jpg" class="img-circle" alt="user1" width="40" height="40">
+							<img src="Images/user2.jpg" class="img-circle" alt="user1" width="40" height="40">
+						</div>
+					</div>
+
+					
+					<div style="padding: 10px 10px 60px 10px;">
+						<div style="float: left;width: 5%;"><input type="checkbox"></div>
+						<div style="float: left;width: 95%">Lorem Ipsum is simply dummy text of the printing
+							<p class="today" style=" background-color: #ffb848;">2 weeks</p>
+							<p style="opacity: 0.6; font-size: 10px; padding-top: 10px;">26 jun 2017</p>
+							
+						</div>
+					</div>
+
+					<div style="padding: 0px 10px 100px 10px;">
+						<div style="float: left;width: 5%;"><input type="checkbox"></div>
+						<div style="float: left;width: 95%">Give Purchase report to 
+							<p class="today" style="background-color: #2255a4;">Yesterday</p><br>
+							<img src="Images/user5.jpg" class="img-circle" alt="user1" width="40" height="40">
+							<img src="Images/user2.jpg" class="img-circle" alt="user1" width="40" height="40">
+						</div>
+					</div>
+				
+					
+				</div><!-- todo -->
+
+
+				<div class="container-fluid prog">
+					<h4 style="color: #3e5569; font-weight: 400; font-size: 2rem; ">Progress Box
+					</h4><br>
+					<div>
+						<div>
+							<div style="float: left;">81% Clicks</div>
+							<div style="padding-left: 400px;">125</div>
+						</div>
+						<div class="progress" style="height: 5px;">
+                        	<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 81%;background-color:#7460ee;"  aria-valuemin="0" aria-valuemax="100">
+                        	</div>
+                    	</div>
+                	</div>
+
+                	<div>
+						<div>
+							<div style="float: left;">72% Uniquie Clicks</div>
+							<div style="padding-left: 400px;">120</div>
+						</div>
+						<div class="progress" style="height: 5px;">
+                        	<div class="progress-bar progress-bar-striped progress-bar-success" role="progressbar" style="width: 72%;"  aria-valuemin="0" aria-valuemax="100">
+                        	</div>
+                    	</div>
+                	</div>
+
+                	<div>
+						<div>
+							<div style="float: left;">53% Impressions</div>
+							<div style="padding-left: 400px;">785</div>
+						</div>
+						<div class="progress" style="height: 5px;">
+                        	<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 53%;background-color: #2255a4;"  aria-valuemin="0" aria-valuemax="100">
+                        	</div>
+                    	</div>
+                	</div>
+
+                	<div>
+						<div>
+							<div style="float: left;">3% Online Users</div>
+							<div style="padding-left: 400px;">8</div>
+						</div>
+						<div class="progress" style="height: 5px;">
+                        	<div class="progress-bar progress-bar-striped" role="progressbar" style="width: 3%;background-color:#da542e"  aria-valuemin="0" aria-valuemax="100">
+                        	</div>
+                    	</div>
+                	</div>
+
+				</div><!-- prog -->
+				
+
+				<div class="container-fluid todo" style="padding-bottom: 20px;">
+					<h4 style="color: #3e5569; font-weight: 400; font-size: 2rem; padding: 10px 10px 30px 0px; ">News Updates</h4>
+
+					<div style="float: left;width: 5%;"><span class="glyphicon glyphicon-ok-sign"></span></div>
+						<div style="float: left;width: 85%">Lorem ipsum dolor sit amet,consectetur adipiscing elit.
+							<p style="opacity: 0.6; padding-top: 10px;">dolor sit amet, consectetur adipiscing</p>
+						</div>
+						<div style="float: right">
+							<div class="datenews">20</div><br>
+							<div class="monnews">Jan</div>
+							
+						</div>
+				</div>
+
+				<div class="container-fluid news">
+					<div style="float: left;width: 5%;"><span class="glyphicon glyphicon-gift"></span></div>
+						<div style="float: left;width: 85%">Congratulation Maruti, Happy Birthday
+							<p style="opacity: 0.6; padding-top: 10px;">many many happy returns of the day</p>
+						</div>
+						<div style="float: right">
+							<div class="datenews">11</div><br>
+							<div class="monnews">Jan</div>
+							
+						</div>
+				</div>
+				<div class="container-fluid news">
+					<div style="float: left;width: 5%;"><span class="glyphicon glyphicon-plus"></span></div>
+						<div style="float: left;width: 85%">Maruti is a Responsive Admin theme
+							<p style="opacity: 0.6; padding-top: 10px;">But already everything was solved. It will...</p>
+						</div>
+						<div style="float: right">
+							<div class="datenews">19</div><br>
+							<div class="monnews">Jan</div>
+							
+						</div>
+				</div>
+				<div class="container-fluid news">
+					<div style="float: left;width: 5%;"><span class="glyphicon glyphicon-leaf"></span></div>
+						<div style="float: left;width: 85%">Envato approved Maruti Admin template
+							<p style="opacity: 0.6; padding-top: 10px;">i am very happy to approved by TF</p>
+						</div>
+						<div style="float: right">
+							<div class="datenews">20</div><br>
+							<div class="monnews">Jan</div>
+							
+						</div>
+				</div>
+				<div class="container-fluid news">
+					<div style="float: left;width: 5%;"><span class="glyphicon glyphicon-question-sign"></span></div>
+						<div style="float: left;width: 85%">I am alwayse here if you have any question
+							<p style="opacity: 0.6; padding-top: 10px;">we glad that you choose our template</p>
+						</div>
+						<div style="float: right">
+							<div class="datenews">15</div><br>
+							<div class="monnews">Jan</div>
+							
+						</div>
+				</div>
+
+
+
+
+
+
+							
+						</div><!-- 1st col-6 -->
+
+						<div class="col-lg-6 col-sm-12 col-md-12">
+							<div class="container-fluid chat">
+					<h4 style="color: #3e5569; font-weight: 400; font-size: 2rem; padding: 10px; ">Chat Option</h4>
+
+					<div>
+						<div style="width: 20%; float: left;"><img src="Images/user1.jpg" class="img-circle" alt="user1" width="50" height="50"> </div>
+						<div style="width: 80%; float: right; color: #3e5569;">James Anderson<br>
+							<p style="padding-top: 7px; background-color: #f5f5f0; padding:10px;margin-top: 5px;">Lorem Ipsum is simply dummy text of the printing & type setting industry.</p>
+							<p style="opacity: 0.6; font-size: 10px;">10:56 am</p>
+
+						</div>
+					</div><br><br>
+
+					<div>
+						<div style="width: 20%; float: left;padding-top: 70px;"><img src="Images/user4.jpg" class="img-circle" alt="user1" width="50" height="50"> </div>
+						<div style="width: 80%; float: right; color: #3e5569;">Bianca Doe<br>
+							<p style="padding-top: 7px; background-color: #f5f5f0; padding:10px;margin-top: 5px;">It’s Great opportunity to work.</p>
+							<p style="opacity: 0.6; font-size: 10px;">10:57 am</p>
+
+						</div>
+					</div><br><br>
+
+					<div style="float: right;">
+						<p class="chatbox">I would love to join the team.</p>
+						<p class="chatbox">Whats budget of the new project.</p>
+						<p style="opacity: 0.6; font-size: 10px; float: right;">10:59 am</p>
+					</div>
+
+					<div>
+						<div style="width: 20%; float: left;padding-top: 125px;"><img src="Images/user5.jpg" class="img-circle" alt="user1" width="50" height="50"> </div>
+						<div style="width: 80%; float: right; color: #3e5569;">Angelina Rhodes<br>
+							<p style="padding-top: 7px; background-color: #f5f5f0; padding:10px;margin-top: 5px;">Well we have good budget for the project</p>
+							<p style="opacity: 0.6; font-size: 10px;">11:00 am</p>
+
+						</div>
+					</div><br><br>
+				</div>
+
+				<div class="text">
+					<textarea placeholder="Type and enter" rows="3" cols="40" style="border: none;overflow: auto;resize: vertical;"></textarea>
+					<button style="border: none; background-color: white; border-radius: 50%;float: right;"><img src="Images/tele.jpg" class="img-circle" width="50" height="50" style=" float: right;border: none;"></button>
+				</div>
+
+
+				<div class="boxnew">
+					<h4 style="color: #3e5569; font-weight: 400; font-size: 2rem; padding: 10px; ">Our partner (Box with Fix height)</h4>
+				</div>
+
+
+				<div class="container-fluid box">
+
+
+					<div>
+						<div style="width: 20%; float: left;"><img src="Images/user1.jpg" class="img-circle" alt="user1" width="50" height="50"> </div>
+						<div style="width: 80%; float: right; color: #3e5569;">James Anderson<br>
+							<p style="padding-top: 7px;">Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+							<button type="button" class="btn btn-primary btn-sm" style="border-radius: 0px; background-color: #36aae8; border: none;">Edit</button>
+							<button type="button" class="btn btn-success btn-sm" style="border-radius: 0px;border: none; background-color: #50b879">Publish</button>
+							<button type="button" class="btn btn-danger btn-sm" style="border-radius: 0px; background-color: #da542e;border: none;">Delete</button>
+							<p style="float: right; opacity: 0.5;">April 14, 2016</p>
+
+						</div>
+					</div>
+					<div>
+						<div style="width: 20%; float: left; padding-top: 90px;"><img src="Images/user2.jpg" class="img-circle" alt="user1" width="50" height="50"> </div>
+						<div style="width: 80%; float: right; color: #3e5569; padding-top: 30px;">James Anderson<br>
+							<p style="padding-top: 7px;">Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+							<button type="button" class="btn btn-primary btn-sm" style="border-radius: 0px; background-color: #36aae8; border: none;">Edit</button>
+							<button type="button" class="btn btn-success btn-sm" style="border-radius: 0px;border: none; background-color: #50b879">Publish</button>
+							<button type="button" class="btn btn-danger btn-sm" style="border-radius: 0px; background-color: #da542e;border: none;">Delete</button>
+							<p style="float: right; opacity: 0.5;">May 10, 2016</p>
+
+						</div>
+					</div>
+					<div style="padding-bottom: 400px;">
+						<div style="width: 20%; float: left; padding-top: 85px;"><img src="Images/user3.jpg" class="img-circle" alt="user1" width="50" height="50"> </div>
+						<div style="width: 80%; float: right; color: #3e5569;padding-top: 30px;">James Anderson<br>
+							<p style="padding-top: 7px;">Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+							<button type="button" class="btn btn-primary btn-sm" style="border-radius: 0px; background-color: #36aae8; border: none;">Edit</button>
+							<button type="button" class="btn btn-success btn-sm" style="border-radius: 0px;border: none; background-color: #50b879">Publish</button>
+							<button type="button" class="btn btn-danger btn-sm" style="border-radius: 0px; background-color: #da542e;border: none;">Delete</button>
+							<p style="float: right; opacity: 0.5;">August 1, 2016</p>
+
+						</div>
+					</div>
+
+				</div><!-- scroll box -->
+
+				<div class="acc">
+					<div class="panel-group" id="accordion">
+    					<div class="panel panel-default">
+      						<div class="panel-heading">
+        						<h4 class="panel-title">
+          							<a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="color: #2962FF;font-weight: 700;"><span class="glyphicon glyphicon-magnet" style="color: blue;"></span> Accordion Example 1</a>
+        						</h4>
+      						</div>
+      						<div id="collapse1" class="panel-collapse collapse in">
+        						<div class="panel-body">
+        							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        						</div>
+      						</div>
+    					</div>
+    					<div class="panel panel-default">
+      						<div class="panel-heading">
+        						<h4 class="panel-title">
+          							<a data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="color: #2962FF;font-weight: 700;"> <span class="glyphicon glyphicon-magnet" style="color: blue;"></span> Accordion Example 2</a>
+        						</h4>
+      						</div>
+      						<div id="collapse2" class="panel-collapse collapse">
+       							<div class="panel-body">
+        							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        						</div>
+   							 </div>
+   						</div>
+    					<div class="panel panel-default">
+      						<div class="panel-heading">
+       							<h4 class="panel-title">
+          							<a data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="color: #2962FF;font-weight: 700;"> <span class="glyphicon glyphicon-magnet" style="color: blue;"></span> Accordion Example 3</a>
+        						</h4>
+      						</div>
+      						<div id="collapse3" class="panel-collapse collapse">
+        						<div class="panel-body">
+        							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        						</div>
+     						</div>
+    					</div>
+  					</div> <!-- panel group -->
+					
+				</div><!-- acc -->
+
+				<div class="acc">
+					<div class="panel-group" id="accordiong">
+    					<div class="panel panel-default">
+      						<div class="panel-heading">
+        						<h4 class="panel-title">
+          							<a data-toggle="collapse" data-parent="#accordiong" href="#collapse4" style="color: #3e5569;"><span class="glyphicon glyphicon-arrow-right" style="color: #3e5569;"></span> Toggle,Open by default</a>
+        						</h4>
+      						</div>
+      						<div id="collapse4" class="panel-collapse collapse in">
+        						<div class="panel-body">
+        							This box is opened by default, paragraphs and is full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end.
+        						</div>
+      						</div>
+    					</div>
+    					<div class="panel panel-default">
+      						<div class="panel-heading">
+        						<h4 class="panel-title">
+          							<a data-toggle="collapse" data-parent="#accordiong" href="#collapse5" style="color: #3e5569;"> <span class="glyphicon glyphicon-remove" style="color: #3e5569;"></span> Toggle,Closed by default</a>
+        						</h4>
+      						</div>
+      						<div id="collapse5" class="panel-collapse collapse">
+       							<div class="panel-body">
+        							This box is now open
+        						</div>
+   							 </div>
+   						</div>
+    					<div class="panel panel-default">
+      						<div class="panel-heading">
+       							<h4 class="panel-title">
+          							<a data-toggle="collapse" data-parent="#accordiong" href="#collapse6" style="color: #3e5569;"> <span class="glyphicon glyphicon-remove" style="color: #3e5569;"></span> Toggle,Closed by default</a>
+        						</h4>
+      						</div>
+      						<div id="collapse6" class="panel-collapse collapse">
+        						<div class="panel-body">
+        							This box is now open
+        						</div>
+     						</div>
+    					</div>
+  					</div> <!-- panel group -->
+					
+				</div><!-- acc -->
+
+				<div class="container-fluid last">
+
+  					<ul class="nav nav-tabs">
+    					<li class="active"><a data-toggle="tab" href="#tab1">Tab1</a></li>
+    					<li><a data-toggle="tab" href="#tab2">Tab2</a></li>
+    					<li><a data-toggle="tab" href="#tab3">Tab3</a></li>
+ 					</ul>
+
+  					<div class="tab-content">
+    					<div id="tab1" class="tab-pane fade in active last1">
+      						<p>And is full of waffle to It has multiple paragraphs and is full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end.multiple paragraphs and is full of waffle to pad out the comment..</p>
+      						<img src="Images/tab.jpg" width="100%">
+   						</div>
+ 
+    					<div id="tab2" class="tab-pane fade">
+      						<div id="tab1" class="tab-pane fade in active last1">
+      							<img src="Images/tab.jpg" width="100%">
+      							<div style="padding-top: 10px;">And is full of waffle to It has multiple paragraphs and is full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end.multiple paragraphs and is full of waffle to pad out the comment..</div>
+      							
+   							</div>
+    					</div>
+
+    					<div id="tab3" class="tab-pane fade">
+      						<div id="tab1" class="tab-pane fade in active last2">
+      							<p>And is full of waffle to It has multiple paragraphs and is full of waffle to pad out the comment. Usually, you just wish these sorts of comments would come to an end.multiple paragraphs and is full of waffle to pad out the comment..</p>
+      							<img src="Images/tab.jpg" width="100%">
+   							</div>
+    					</div>
+  					</div>
+				</div><!-- last -->
+							
+						</div><!-- 2nd col-6 -->
+						
+					</div><!-- row -->
+					
+				</div><!-- container of col-6 split --><br><br><br><br><br>
+				<div class="final">
+					All Rights Reserved by Matrix-admin. Designed and Developed by <a href="#">WrapPixel.</a> 
+				</div>
+		</div><!-- main -->
+		
+	</div><!-- container-fluid -->
+
+</body>
+</html>
